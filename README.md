@@ -89,5 +89,7 @@ or
 $ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/large_mine_abandoned/lcmine.world
 To use large_mine_abondoned world, unzip "plz.zip" in the directory.
 
+or
+
 $ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/bounding_wall_world/boxworld_obstacles.world
 ~~~

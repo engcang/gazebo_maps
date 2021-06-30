@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="obstacle">
+    <static>true</static>
+    <link name="link">
+      <inertial>
+        <mass>0.6</mass>
+          <inertia>
+            <ixx>0.17</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.17</iyy>
+            <iyz>0</iyz>
+            <izz>0.1</izz>
+          </inertia>
+      </inertial>
+      <collision name="c1">
+        <geometry>
+          <box>
+            <size>0.6 0.6 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="v1">
+        <geometry>
+          <box>
+            <size>0.6 0.6 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Indigo</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

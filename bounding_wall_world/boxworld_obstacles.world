@@ -54,6 +54,10 @@
       <pose>-0 0 0 0 0 0</pose>
       <uri>model://bbox</uri>
     </include>
+    <include>
+      <static>false</static>
+      <uri>model://obstacles</uri>
+    </include>
 
   </world>
 </sdf>
