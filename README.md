@@ -10,29 +10,42 @@ Self-made Gazebo maps for public
 + maze with hole-ground
 
 <br>
+
+## Pictures
+
 <details><summary>[click to see pictures]</summary>
+
 + small-scale maze
+
   <p align="center">
-  <img src="images/samze2d.png" width="300"/>
+  <img src="images/smaze2d.png" width="300"/>
   </p>
+
 + large-scale mine
+
   <p align="center">
   <img src="images/lcmine1.png" width="300"/>
   <img src="images/lcmine2.png" width="300"/>
   </p>
+
 + maze with height maps
+
   <p align="center">
   <img src="images/quad.png" width="200"/>
   <img src="images/quad_cliff.png" width="200"/>
   <img src="images/quad_hill_high.png" width="200"/>
   </p>
+
 + maze with hole-ground
+
   <p align="center">
-  <img src="images/quad_hole_ground.png" width="200"/>
-  <img src="images/quad_hole_ground_hill_low.png" width="200"/>
-  <img src="images/quad_hole_ground_mini.png" width="200"/>
+  <img src="images/quad_hole_ground.png" width="240"/>
+  <img src="images/quad_hole_ground_hill_low.png" width="240"/>
+  <img src="images/quad_hole_ground_mini.png" width="120"/>
   </p>
+
 + tall wall-bounded world
+
 
 </details>
 
@@ -55,6 +68,8 @@ $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/small_maz
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/large_mine_abandoned" >> ~/.bashrc
 To use large_mine_abondoned world, unzip "plz.zip" in the directory.
 
+$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/bounding_wall_world" >> ~/.bashrc
+
 $ source ~/.bashrc
 ~~~
 
@@ -73,4 +88,6 @@ or
 
 $ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/large_mine_abandoned/lcmine.world
 To use large_mine_abondoned world, unzip "plz.zip" in the directory.
+
+$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/bounding_wall_world/boxworld_obstacles.world
 ~~~
