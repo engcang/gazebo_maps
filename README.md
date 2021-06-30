@@ -8,6 +8,7 @@ Self-made Gazebo maps for public
 + large-scale mine environment - edited from [MBPlanner](https://github.com/ntnu-arl/mbplanner_ros/tree/master/planner_gazebo_sim/worlds)
 + maze with height map (hills and cliff) environment
 + maze with hole-ground
++ wall bounded world (with obstacles)
 
 <br>
 
