@@ -7,7 +7,7 @@
       <collision name="collision">
         <geometry>
           <heightmap>
-            <uri>model://quad_height/materials/textures/realfuck_finalaa.png</uri>
+            <uri>model://quad_height/materials/textures/quad_height.png</uri>
             <size>51.2 51.2 2.5</size>
             <pos>0 0 0</pos>
           </heightmap>
@@ -41,7 +41,7 @@
               <min_height>1.5</min_height>
               <fade_dist>0.4</fade_dist>
             </blend>
-            <uri>model://quad_height/materials/textures/realfuck_finalaa.png</uri>
+            <uri>model://quad_height/materials/textures/quad_height.png</uri>
             <size>51.2 51.2 2.5</size>
             <pos>0 0 0</pos>
           </heightmap>

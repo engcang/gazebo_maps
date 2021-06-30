@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="bbox_wall">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 10 0 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>80 0.4 20</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+<!--        <cast_shadows>false</cast_shadows>-->
+        <geometry>
+          <box>
+            <size>80 0.4 20</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://bbox_wall/materials/scripts</uri>
+            <uri>model://bbox_wall/materials/textures</uri>
+            <name>vrc/bbox_wall</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
