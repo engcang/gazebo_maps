@@ -4,32 +4,32 @@
     <static>true</static>
     <link name="link">
       <inertial>
-        <mass>0.6</mass>
+        <mass>1.5</mass>
           <inertia>
-            <ixx>0.17</ixx>
+            <ixx>0.2</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0.17</iyy>
+            <iyy>0.2</iyy>
             <iyz>0</iyz>
-            <izz>0.1</izz>
+            <izz>0.2</izz>
           </inertia>
       </inertial>
       <collision name="c1">
         <geometry>
           <box>
-            <size>0.6 0.6 0.03</size>
+            <size>0.6 0.6 0.035</size>
           </box>
         </geometry>
       </collision>
       <visual name="v1">
         <geometry>
           <box>
-            <size>0.6 0.6 0.03</size>
+            <size>0.6 0.6 0.035</size>
           </box>
         </geometry>
         <material>
           <script>
-            <name>Gazebo/Indigo</name>
+            <name>Gazebo/Grey</name>
             <uri>file://media/materials/scripts/gazebo.material</uri>
           </script>
         </material>
