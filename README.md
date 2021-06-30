@@ -46,6 +46,10 @@ Self-made Gazebo maps for public
 
 + tall wall-bounded world
 
+  <p align="center">
+  <img src="images/bounding.png" width="250"/>
+  <img src="images/bounding_obstacle.png" width="300"/>
+  </p>
 
 </details>
 
