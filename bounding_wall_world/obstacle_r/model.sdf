@@ -1,31 +1,31 @@
 <?xml version="1.0" ?>
 <sdf version="1.5">
-  <model name="obstacle">
-    <static>true</static>
+  <model name="obstacle_r">
+    <static>false</static>
     <link name="link">
       <inertial>
-        <mass>1.5</mass>
+        <mass>2.0</mass>
           <inertia>
-            <ixx>0.2</ixx>
+            <ixx>0.25</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0.2</iyy>
+            <iyy>0.25</iyy>
             <iyz>0</iyz>
-            <izz>0.2</izz>
+            <izz>0.25</izz>
           </inertia>
       </inertial>
       <collision name="c1">
         <geometry>
-          <box>
-            <size>0.6 0.6 0.035</size>
-          </box>
+          <sphere>
+            <radius>0.04</radius>
+          </sphere>
         </geometry>
       </collision>
       <visual name="v1">
         <geometry>
-          <box>
-            <size>0.6 0.6 0.035</size>
-          </box>
+          <sphere>
+            <radius>0.04</radius>
+          </sphere>
         </geometry>
         <material>
           <script>
