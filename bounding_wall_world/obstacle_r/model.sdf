@@ -17,14 +17,14 @@
       <collision name="c1">
         <geometry>
           <sphere>
-            <radius>0.03</radius>
+            <radius>0.033</radius>
           </sphere>
         </geometry>
       </collision>
       <visual name="v1">
         <geometry>
           <sphere>
-            <radius>0.03</radius>
+            <radius>0.033</radius>
           </sphere>
         </geometry>
         <material>
