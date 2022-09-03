@@ -102,7 +102,7 @@ Self-made Gazebo maps and models for public
 
 + Reconstruction models used in the paper:
     + [CEO-MLCPP: Control-Efficient and Obstacle-aware Multi-Layer Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/CEO-MLCPP), *2022 RiTA*
-        + `Big-Ben`, 
+        + `Big-Ben`
         + `Eiffel Tower`
         + `Japanese temple`
 
@@ -110,7 +110,7 @@ Self-made Gazebo maps and models for public
     + [EQA-CPP: Energy and Quality-Aware Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/EQA-CPP), *2023 RA-L (pending)*
         + `Alexander Nevsky Cathedral`
         + `At Tin Mosque`
-        + `Japanese temple2
+        + `Japanese temple2`
 
 
 <br>
