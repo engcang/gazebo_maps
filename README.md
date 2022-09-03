@@ -1,11 +1,11 @@
 # Gazebo maps
-Self-made Gazebo maps for public
+Self-made Gazebo maps and models for public
 
 #### If you use this repo for your paper, please cite the corresponding papers in the list below
 
 <br>
 
-## List
+## Map list
 + Exploration map used in the paper:
   + [REAL: Rapid Exploration with Active Loop-Closing toward Large-Scale 3D Mapping using UAVs](https://ieeexplore.ieee.org/abstract/document/9636611), *2021 IROS*
     + small-scale maze environment
@@ -36,7 +36,7 @@ Self-made Gazebo maps for public
 
 <br>
 
-## Pictures
+## Map pictures
 
 <details><summary>[Click to see pictures]</summary>
 
@@ -95,6 +95,25 @@ Self-made Gazebo maps for public
 
 </details>
 
+
+<br>
+
+## Model list (in `reconstruction` folder)
+
+<br>
+
+## Model Pictures
+
+<details><summary>[Click to see pictures]</summary>
+
++ small-scale maze
+
+  <p align="center">
+  <img src="images/smaze2d.png" width="300"/>
+  </p>
+
+</details>
+
 <br><br>
 
 ## How to use
@@ -113,29 +132,19 @@ $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/common_mo
 ~~~shell
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/height_maze" >> ~/.bashrc
 
-$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/small_maze" >> ~/.bashrc
-
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/3d_maze" >> ~/.bashrc
 
 $ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/large_mine_abandoned" >> ~/.bashrc
 
-$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/bounding_wall_world" >> ~/.bashrc
+...
 
-$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/ice_mountains" >> ~/.bashrc
-
-$ echo "export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:$(pwd)/gazebo_maps/mili_tech" >> ~/.bashrc
+Add the world/model path you want!!
 
 $ source ~/.bashrc
 ~~~
 
 + launch the `world`
 ~~~shell
-$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/height_maze/quad.world
-or quad_hill_high.world, quad_hole_ground.world, quad_hole_ground_hill_low.world, etc... 
-in same directory
-
-or
-
 $ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/small_maze/smaze2d.world
 
 or
@@ -144,18 +153,7 @@ $ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/3d_maze
 
 or
 
-$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/large_mine_abandoned/lcmine.world
+...
 
-or
-
-$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/bounding_wall_world/boxworld_obstacles.world
-or boxworld.world
-
-or
-
-$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/ice_mountains/ice_mts.world
-
-or
-
-$ roslaunch gazebo_ros empty_world.launch world_name:=$(pwd)/gazebo_maps/mili_tech/mili.world
+Launch the world/model you want!
 ~~~
