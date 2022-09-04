@@ -102,16 +102,15 @@ Self-made Gazebo maps and models for public
 
 + Reconstruction models used in the paper:
     + [CEO-MLCPP: Control-Efficient and Obstacle-aware Multi-Layer Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/CEO-MLCPP), *2022 RiTA*
-        + `Big-Ben`
-        + `Eiffel Tower`
-        + `Japanese temple`
+        + `Big-Ben`, `Louisiana State House`
+        + `Eiffel Tower`, `Japanese temple`
 
 + (Pending) Reconstruction models used in the paper:
     + [EQA-CPP: Energy and Quality-Aware Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/EQA-CPP), *2023 RA-L (pending)*
-        + `Alexander Nevsky Cathedral`
-        + `At Tin Mosque`
-        + `Japanese temple2`
-
+        + `Alexander Nevsky Cathedral`, `At Tin Mosque`, `Japanese temple2`
+        + `Louisiana State House`, `San Adrian thermal powerplant`, `Khram Pokrova`, `Orthodox church`
+        + `Tomb of Tu Duc`, `Stone church`
+        + `Mexico City Cathedral`
 
 <br>
 
@@ -119,7 +118,7 @@ Self-made Gazebo maps and models for public
 
 <details><summary>[Click to see pictures]</summary>
 
-+ Models in `recon1.tar.xz` file (`Big-Ben`, `Eiffel Tower`, `Japanese temple`)
++ Models in `recon1.tar.xz` file (`Big-Ben`, `Louisiana State House`, `Eiffel Tower`, `Japanese temple`)
 
   <p align="center">
   <img src="images/recon1.png" width="550"/>
@@ -131,7 +130,7 @@ Self-made Gazebo maps and models for public
   <img src="images/recon2.png" width="550"/>
   </p>
 
-+ Models in `recon3.tar.xz` file (`Louisiana State House`, `San Adrian thermal powerplant`, `Khram Pokrova`)
++ Models in `recon3.tar.xz` file (`San Adrian thermal powerplant`, `Khram Pokrova`, `Orthodox church`)
 
   <p align="center">
   <img src="images/recon3.png" width="550"/>
