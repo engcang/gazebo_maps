@@ -3,7 +3,7 @@
   <world name="default">
     <gui>
       <camera name="user_camera">
-        <pose>-112 -39 62 0 0.18 0.27</pose>
+        <pose>-93 -34.8 50 0 0.18 0.27</pose>
       </camera>
     </gui>
     <scene>
@@ -42,8 +42,8 @@
 
     <!-- Model -->
     <include>
-      <pose>10 0 0 0 0 0</pose>
-      <uri>model://bigben2</uri>
+      <pose>16 0 0 0 0 0</pose>
+      <uri>model://eiffel_tower</uri>
     </include>
 
     <!-- A global light source -->
