@@ -42,7 +42,7 @@
 
     <!-- Model -->
     <include>
-      <pose>17 0 0 0 0 0</pose>
+      <pose>30 0 0 0 0 3.141592</pose>
       <uri>model://louisiana_state_house</uri>
     </include>
 
