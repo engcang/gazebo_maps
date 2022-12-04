@@ -3,7 +3,7 @@
   <world name="default">
     <gui>
       <camera name="user_camera">
-        <pose>-88 -31 43 0 0.14 0.24</pose>
+        <pose>-75 -25 55 0 0.3 0.195</pose>
       </camera>
     </gui>
     <scene>
@@ -39,13 +39,11 @@
       <magnetic_field>6.0e-6 2.3e-5 -4.2e-5</magnetic_field>
     </physics>
 
-    <plugin name="voxblox_ground_truth_plugin" filename="libvoxblox_ground_truth_plugin.so"/>
-
 
     <!-- Model -->
     <include>
-      <pose>15 0 0 0 0 0</pose>
-      <uri>model://japanese_temple</uri>
+      <pose>23 0 21 0 0 1.5708</pose>
+      <uri>model://bridge</uri>
     </include>
 
     <!-- A global light source -->
