@@ -27,8 +27,7 @@ Self-made Gazebo maps and models for public
     + Iced outdoor mountain
       + [Video](https://youtu.be/NvkI6I0nX4c)
 + War site scenario map used in the paper:
-  + [Development of a 3D Mapping System including Object Position for UAV with a RGB-D camerain an Unknown and GNSS-denied Environment
-](https://koasas.kaist.ac.kr/handle/10203/277738), *2020 IEMEK*
+  + [Development of a 3D Mapping System including Object Position for UAV with a RGB-D camerain an Unknown and GNSS-denied Environment](https://koasas.kaist.ac.kr/handle/10203/277738), *2020 IEMEK*
     + Military fortress (with soldiers, tanks, jets, and etc)
       + [Video1](https://youtu.be/5t-6g7UWA7o) and [Video2](https://youtu.be/0L2FCupYuH8)
 + Quadruped robot [competition map](https://github.com/engcang/gazebo_map_for_khnp)
@@ -101,16 +100,20 @@ Self-made Gazebo maps and models for public
 ## Model list (in `reconstruction` folder)
 
 + Reconstruction models used in the paper:
-    + [CEO-MLCPP: Control-Efficient and Obstacle-aware Multi-Layer Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/CEO-MLCPP), *2022 RiTA*
-        + `Big-Ben`, `Louisiana State House`
-        + `Eiffel Tower`, `Japanese temple`, `Bridge`
+  + [CEO-MLCPP: Control-Efficient and Obstacle-aware Multi-Layer Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/CEO-MLCPP), *2022 RiTA*
+    + [`Big-Ben`](https://skfb.ly/6CY66), [`Eiffel Tower`](https://skfb.ly/AIU9), [`Japanese temple`](https://skfb.ly/6Twyt)
+  + Two-Stage Optimization-Based Energy-Efficient Coverage Path Planner for 3D reconstruction, *2023 KRoC*
+    + [`Japanese temple2`](https://skfb.ly/6RyU9)
+  + Topological Exploration Path Planner for Fast and Coarse 3D Mapping of Outdoor Structures with UAVs, *2023 UR*
+    + [`San Adrian thermal powerplant`](https://skfb.ly/otxH6), [`Orthodox church`](https://skfb.ly/o7uZD)
+  + [EQA-CPP: Energy and Quality-Aware Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/EQA-CPP), *2023 RA-L (pending)*
+    + [`Alexander Nevsky Cathedral`](https://skfb.ly/otCOL), [`At Tin Mosque`](https://skfb.ly/6TGTC)
+    + [`Louisiana State House`](https://skfb.ly/oxwWF), [`Khram Pokrova`](https://skfb.ly/o7nBM)
+    + [`Tomb of Tu Duc`](https://skfb.ly/6SRAz), [`Stone church`](https://skfb.ly/6RFIs)
+    + [`Mexico City Cathedral`](https://skfb.ly/6RvxJ)
 
-+ (Pending) Reconstruction models used in the paper:
-    + [EQA-CPP: Energy and Quality-Aware Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/EQA-CPP), *2023 RA-L (pending)*
-        + `Alexander Nevsky Cathedral`, `At Tin Mosque`, `Japanese temple2`
-        + `Louisiana State House`, `San Adrian thermal powerplant`, `Khram Pokrova`, `Orthodox church`
-        + `Tomb of Tu Duc`, `Stone church`
-        + `Mexico City Cathedral`
++ Models not used in any paper:
+    + [`Louisiana State House`](https://skfb.ly/oxwWF), [`Bridge`](https://skfb.ly/6WZuC)
 
 <br>
 
