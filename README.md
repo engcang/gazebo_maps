@@ -104,7 +104,7 @@ Self-made Gazebo maps and models for public
     + [`Big-Ben`](https://skfb.ly/6CY66), [`Eiffel Tower`](https://skfb.ly/AIU9), [`Japanese temple`](https://skfb.ly/6Twyt)
   + Two-Stage Optimization-Based Energy-Efficient Coverage Path Planner for 3D reconstruction, *2023 KRoC*
     + [`Japanese temple2`](https://skfb.ly/6RyU9)
-  + Topological Exploration Path Planner for Fast and Coarse 3D Mapping of Outdoor Structures with UAVs, *2023 UR*
+  + THE-Planner: Topological and Hierarchical Exploration Path Planner for Fast and Coarse 3D Mapping of Outdoor Structures with UAVs, *2023 UR*
     + [`San Adrian thermal powerplant`](https://skfb.ly/otxH6), [`Orthodox church`](https://skfb.ly/o7uZD)
   + [EQA-CPP: Energy and Quality-Aware Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/EQA-CPP), *2023 RA-L (pending)*
     + [`Alexander Nevsky Cathedral`](https://skfb.ly/otCOL), [`At Tin Mosque`](https://skfb.ly/6TGTC)
