@@ -15,7 +15,7 @@ Self-made Gazebo maps and models for public
     + maze with height map (hills and cliff) environment
     + maze with hole-ground
       + [Video](https://youtu.be/bz7Ig6GnC-s)
-  + [Peacock exploration: a lightweight exploration for UAV using control-efficient trajectory](), *2020 RiTA*
+  + [Peacock exploration: a lightweight exploration for UAV using control-efficient trajectory](https://link.springer.com/chapter/10.1007/978-981-16-4803-8_16), *2020 RiTA*
     + Maze with 3D obstacles
       + [Video](https://youtu.be/t3ysB8Y_GCU)
 + Map used in the paper:
