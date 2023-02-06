@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+ <model name="transmission_tower">
+   <pose>0 0 0 0 0 0</pose>
+   <static>true</static>
+   <link name="link">
+     <collision name="collision">
+       <geometry>
+         <mesh>
+           <scale>2.0 2.0 2.0</scale>
+           <uri>model://transmission_tower/untitled.dae</uri>
+         </mesh>
+       </geometry>
+     </collision>
+     <visual name="visual">
+     <cast_shadows>0</cast_shadows>
+       <geometry>
+         <mesh>
+           <scale>2.0 2.0 2.0</scale>
+           <uri>model://transmission_tower/untitled.dae</uri>
+         </mesh>
+       </geometry>
+     </visual>
+   </link>
+ </model>
+</sdf>
