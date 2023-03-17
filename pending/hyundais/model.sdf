@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='hyundais'>
+
+    <include>
+      <name>h1</name>
+      <uri>model://hyundai</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h2</name>
+      <uri>model://hyundai</uri>
+      <pose>4.1 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h3</name>
+      <uri>model://hyundai</uri>
+      <pose>0 4.1 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h4</name>
+      <uri>model://hyundai</uri>
+      <pose>4.1 4.1 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h5</name>
+      <uri>model://hyundai</uri>
+      <pose>0 8.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h6</name>
+      <uri>model://hyundai</uri>
+      <pose>4.1 8.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h7</name>
+      <uri>model://hyundai</uri>
+      <pose>0 12.3 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h8</name>
+      <uri>model://hyundai</uri>
+      <pose>4.1 12.3 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>h9</name>
+      <uri>model://hyundai</uri>
+      <pose>0 16.4 0 0 0 0</pose>
+    </include>
+
+
+  </model>
+</sdf>
