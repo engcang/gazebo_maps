@@ -8,19 +8,22 @@ Self-made Gazebo maps and models for public
 ## Map list
 + Exploration map used in the paper:
   + [REAL: Rapid Exploration with Active Loop-Closing toward Large-Scale 3D Mapping using UAVs](https://ieeexplore.ieee.org/abstract/document/9636611), *2021 IROS*
-    + small-scale maze environment
-    + large-scale mine environment - edited from [MBPlanner](https://github.com/ntnu-arl/mbplanner_ros/tree/master/planner_gazebo_sim/worlds)
+    + Small-scale maze environment
+    + Large-scale mine environment - edited from [MBPlanner](https://github.com/ntnu-arl/mbplanner_ros/tree/master/planner_gazebo_sim/worlds)
       + [Video](https://youtu.be/Ux6ir2_ayoY)
   + [QR-SCAN: Traversable Region Scan for Quadruped Robot Exploration using Lightweight Precomputed Trajectory](https://ieeexplore.ieee.org/abstract/document/9650025), *2021 ICCAS*
-    + maze with height map (hills and cliff) environment
-    + maze with hole-ground
+    + Maze with height map (hills and cliff) environment
+    + Maze with hole-ground
       + [Video](https://youtu.be/bz7Ig6GnC-s)
   + [Peacock exploration: a lightweight exploration for UAV using control-efficient trajectory](https://link.springer.com/chapter/10.1007/978-981-16-4803-8_16), *2020 RiTA*
     + Maze with 3D obstacles
       + [Video](https://youtu.be/t3ysB8Y_GCU)
+  + (Pending) LiDAR-camera Exploration and Inspection Path Planning, *2023 RA-L*
+    + Vertical tunnel
+      + [Video](https://youtu.be/emiSJMcA8yM?t=531), [Video2](https://youtu.be/2nyaDcgCnaw)
 + Map used in the paper:
   + [ROLAND: Robust Landing of UAV on Moving Platform using Object Detection and UWB based Extended Kalman Filter](https://ieeexplore.ieee.org/abstract/document/9649920), *2021 ICCAS*
-    + wall bounded world (with obstacles)
+    + Wall bounded world (with obstacles)
       + [Video](https://youtu.be/lgHbKAFs7ao)
 + Textureless and featureless map for visual-inertial odometry used in the paper:
   + [STEP: State Estimator for Legged Robots Using a Preintegrated Foot Velocity Factor](https://ieeexplore.ieee.org/abstract/document/9712415), *2022 IEEE RA-L*
@@ -39,20 +42,20 @@ Self-made Gazebo maps and models for public
 
 <details><summary>[Click to see pictures]</summary>
 
-+ small-scale maze
++ Small-scale maze
 
   <p align="center">
   <img src="images/smaze2d.png" width="300"/>
   </p>
 
-+ large-scale mine
++ Large-scale mine
 
   <p align="center">
   <img src="images/lcmine1.png" width="300"/>
   <img src="images/lcmine2.png" width="300"/>
   </p>
 
-+ maze with height maps
++ Maze with height maps
 
   <p align="center">
   <img src="images/quad.png" width="200"/>
@@ -60,7 +63,7 @@ Self-made Gazebo maps and models for public
   <img src="images/quad_hill_high.png" width="200"/>
   </p>
 
-+ maze with hole-ground
++ Maze with hole-ground
 
   <p align="center">
   <img src="images/quad_hole_ground.png" width="240"/>
@@ -68,13 +71,20 @@ Self-made Gazebo maps and models for public
   <img src="images/quad_hole_ground_mini.png" width="120"/>
   </p>
 
-+ maze with 3D obstacles
++ Maze with 3D obstacles
 
   <p align="center">
   <img src="images/3dmaze.png" width="400"/>
   </p>
 
-+ tall wall-bounded world
++ Vertical tunnel
+
+  <p align="center">
+  <img src="images/verti.png" width="250"/>
+  <img src="images/verti2.png" width="300"/>
+  </p>
+
++ Tall wall-bounded world
 
   <p align="center">
   <img src="images/bounding.png" width="250"/>
