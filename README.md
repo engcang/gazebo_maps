@@ -21,6 +21,7 @@ Self-made Gazebo maps and models for public
   + (Pending) LiDAR-camera Exploration and Inspection Path Planning, *2023 RA-L*
     + Vertical tunnel
       + [Video](https://youtu.be/emiSJMcA8yM?t=531), [Video2](https://youtu.be/2nyaDcgCnaw)
+    + Large-scale and complex environment
 + Map used in the paper:
   + [ROLAND: Robust Landing of UAV on Moving Platform using Object Detection and UWB based Extended Kalman Filter](https://ieeexplore.ieee.org/abstract/document/9649920), *2021 ICCAS*
     + Wall bounded world (with obstacles)
@@ -82,6 +83,11 @@ Self-made Gazebo maps and models for public
   <p align="center">
   <img src="images/verti.png" width="250"/>
   <img src="images/verti2.png" width="300"/>
+  </p>
+
++ Large-scale and complex environment
+  <p align="center">
+  <img src="images/complex.png" width="400"/>
   </p>
 
 + Tall wall-bounded world
