@@ -167,7 +167,7 @@ Self-made Gazebo maps and models for public
 ## How to use
 ### unzip the compressed files
 ```shell
-$ tar -xf name.tar.xz
+$ tar -xf <NAME>.tar.xz
 ```
 + Clone the git, add the folder in `GAZEBO_MODEL_PATH`
 + **(Necessary)** Add `common models` to environment first
