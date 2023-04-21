@@ -1,0 +1,15 @@
+material vrc/starting_point
+{
+  #receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture s.png
+        scale 1 1
+      }
+    }
+  }
+}

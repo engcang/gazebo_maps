@@ -1,0 +1,532 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Bcourse_new">
+
+
+<!--mannequin and dog-->
+
+    <include>
+      <name>gown1</name>
+      <pose>-7 -3 0 0 0 0</pose>
+      <uri>model://gown</uri>
+    </include>
+    <include>
+      <name>gown2</name>
+      <pose>7 0 0 0 0 3.141592</pose>
+      <uri>model://gown</uri>
+    </include>
+    <include>
+      <pose>-0.3 3 0 0 0 0</pose>
+      <uri>model://rokarmy</uri>
+    </include>
+    <include>
+      <pose>-3.03 -8.3 0 0 0 1.5708</pose>
+      <uri>model://usarmy</uri>
+    </include>
+    <include>
+      <name>sp1</name>
+      <pose>2 -8.6 0 0 0 0</pose>
+      <uri>model://specialforce</uri>
+    </include>
+    <include>
+      <name>sp2</name>
+      <pose>-1.73 7.15 0 0 0 3.141592</pose>
+      <uri>model://specialforce</uri>
+    </include>
+    <include>
+      <name>dg1</name>
+      <pose>-5.75 6.45 0 0 0 0</pose>
+      <uri>model://shepherd</uri>
+    </include>
+    <include>
+      <name>dg2</name>
+      <pose>6.4 -4.5 0 0 0 3.141592</pose>
+      <uri>model://shepherd</uri>
+    </include>
+
+
+
+
+<!--wall and wall imgs-->
+
+    <include>
+      <name>wall1</name>
+      <pose>0 12.5 0 0 0 0</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall2</name>
+      <pose>-5 12.5 0 0 0 0</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall3</name>
+      <pose>5 12.5 0 0 0 0</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall4</name>
+      <pose>0 -12.5 0 0 0 0</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall5</name>
+      <pose>-5 -12.5 0 0 0 0</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall6</name>
+      <pose>5 -12.5 0 0 0 0</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall7</name>
+      <pose>7.5 10 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall8</name>
+      <pose>7.5 5 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall9</name>
+      <pose>7.5 0 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall10</name>
+      <pose>7.5 -5 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall11</name>
+      <pose>7.5 -10 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall12</name>
+      <pose>-7.5 10 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall13</name>
+      <pose>-7.5 5 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall14</name>
+      <pose>-7.5 0 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall15</name>
+      <pose>-7.5 -5 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+    <include>
+      <name>wall16</name>
+      <pose>-7.5 -10 0 0 0 1.57</pose>
+      <uri>model://5m_wall_new</uri>
+    </include>
+
+
+<!--floors-->
+    <include>
+      <name>floor1</name>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://blue_ground_new</uri>
+    </include>
+    <include>
+      <name>home</name>
+      <pose>5.5 10.5 0.05 0 0 1.57</pose>
+      <uri>model://homing_point</uri>
+    </include>
+    <include>
+      <name>low_wall2</name>
+      <pose>3.5 10.5 0.05 0 0 1.57</pose>
+      <uri>model://4m_low_wall</uri>
+    </include>
+    <include>
+      <name>low_wall1</name>
+      <pose>5.5 8.5 0.05 0 0 0</pose>
+      <uri>model://4m_low_wall</uri>
+    </include>
+    <include>
+      <name>table_chair</name>
+      <pose>-3.5 7.5 0.05 0 0 1.57</pose>
+      <uri>model://table_and_chair</uri>
+    </include>
+
+<!--boxes-->
+    <include>
+      <name>box1</name>
+      <pose>7 -12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box2</name>
+      <pose>7 -11 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box3</name>
+      <pose>7 -10 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box4</name>
+      <pose>7 -9 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box5</name>
+      <pose>7 -8 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box6</name>
+      <pose>7 -7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+    <include>
+      <name>box7</name>
+      <pose>7 -2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box8</name>
+      <pose>7 -1 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box9</name>
+      <pose>6 -2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box10</name>
+      <pose>6 -1 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box11</name>
+      <pose>5 -2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box12</name>
+      <pose>5 -1 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+    <include>
+      <name>box13</name>
+      <pose>7 4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box14</name>
+      <pose>7 5 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box15</name>
+      <pose>7 6 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box16</name>
+      <pose>7 7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box17</name>
+      <pose>6 6 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box18</name>
+      <pose>6 7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box19</name>
+      <pose>5 7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box20</name>
+      <pose>4 7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+
+    <include>
+      <name>box21</name>
+      <pose>1 -12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box22</name>
+      <pose>1 -11 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box23</name>
+      <pose>1 -10 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box24</name>
+      <pose>1 -9 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box25</name>
+      <pose>1 -8 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box26</name>
+      <pose>1 -7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box27</name>
+      <pose>1 -6 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+    <include>
+      <name>box28</name>
+      <pose>2 -10 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box29</name>
+      <pose>3 -10 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box30</name>
+      <pose>2 -6 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box31</name>
+      <pose>3 -6 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+    <include>
+      <name>box32</name>
+      <pose>-3 -10 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box33</name>
+      <pose>-3 -9 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+    <include>
+      <name>box34</name>
+      <pose>-7 -12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box35</name>
+      <pose>-7 -11 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+    <include>
+      <name>box36</name>
+      <pose>1 -2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box37</name>
+      <pose>1 -1 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box38</name>
+      <pose>0 -2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box39</name>
+      <pose>0 -1 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+    <include>
+      <name>box40</name>
+      <pose>-4 -5 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box41</name>
+      <pose>-4 -4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box42</name>
+      <pose>-5 -5 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box43</name>
+      <pose>-5 -4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box44</name>
+      <pose>-6 -5 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box45</name>
+      <pose>-6 -4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box46</name>
+      <pose>-7 -5 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box47</name>
+      <pose>-7 -4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+    <include>
+      <name>box48</name>
+      <pose>-7 12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box49</name>
+      <pose>-7 11 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box50</name>
+      <pose>-6 -12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+    <include>
+      <name>box51</name>
+      <pose>-4 12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box52</name>
+      <pose>-3 12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+    <include>
+      <name>box53</name>
+      <pose>-1 12 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box54</name>
+      <pose>-1 11 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box55</name>
+      <pose>-1 10 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box56</name>
+      <pose>-1 9 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box57</name>
+      <pose>-1 8 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box58</name>
+      <pose>-1 7 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+
+    <include>
+      <name>box59</name>
+      <pose>-1 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box60</name>
+      <pose>-2 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box61</name>
+      <pose>-3 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box62</name>
+      <pose>-4 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box63</name>
+      <pose>-5 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box64</name>
+      <pose>-6 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box65</name>
+      <pose>-7 3 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box66</name>
+      <pose>-6 2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box67</name>
+      <pose>-7 2 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box68</name>
+      <pose>-6 4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+    <include>
+      <name>box69</name>
+      <pose>-7 4 0.05 0 0 0</pose>
+      <uri>model://basic_box_new</uri>
+    </include>
+
+
+  </model>
+</sdf>

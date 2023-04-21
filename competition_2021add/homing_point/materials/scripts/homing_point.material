@@ -1,0 +1,15 @@
+material vrc/homing_point
+{
+  #receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture h.png
+        scale 1 1
+      }
+    }
+  }
+}

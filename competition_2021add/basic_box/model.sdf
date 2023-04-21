@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="basic_box">
+
+    <link name="link">
+      <inertial>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.041666667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.056666667</iyy>
+          <iyz>0</iyz>
+          <izz>0.068333333</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.5 0.5 0.7</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <pose>0 0 -0.35 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://basic_box/meshes/basic_box.dae</uri>
+            <scale>1.23931896 1.23931896 1.763046544</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="link2">
+      <inertial>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.041666667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.056666667</iyy>
+          <iyz>0</iyz>
+          <izz>0.068333333</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision2">
+        <pose>0 0 0.7 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.5 0.5 0.7</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual2">
+        <pose>0 0 0.35 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://basic_box/meshes/basic_box.dae</uri>
+            <scale>1.23931896 1.23931896 1.763046544</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+    <link name="link3">
+      <inertial>
+        <mass>2</mass>
+        <inertia>
+          <ixx>0.041666667</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.056666667</iyy>
+          <iyz>0</iyz>
+          <izz>0.068333333</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision3">
+        <pose>0 0 1.4 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.5 0.5 0.7</size>
+          </box>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>
+              <mu>1.0</mu>
+              <mu2>1.0</mu2>
+            </ode>
+          </friction>
+          <contact>
+            <ode>
+              <kp>10000000.0</kp>
+              <kd>1.0</kd>
+              <min_depth>0.001</min_depth>
+              <max_vel>0.1</max_vel>
+            </ode>
+          </contact>
+        </surface>
+      </collision>
+      <visual name="visual3">
+        <pose>0 0 1.05 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://basic_box/meshes/basic_box.dae</uri>
+            <scale>1.23931896 1.23931896 1.763046544</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='usarmy'>
+    <static>true</static>
+      <link name='usarmy'>
+         <collision name='usarmyc'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://usarmy/usarmy.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='usarmyc'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://usarmy/usarmy.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>usarmy</name>
+              <uri>model://usarmy/usarmy.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

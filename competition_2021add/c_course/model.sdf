@@ -1,0 +1,496 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='c_course'>
+
+<!--floors-->
+    <include>
+      <name>h1</name>
+      <uri>model://homing_point</uri>
+      <pose>1 -1 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>bg1</name>
+      <uri>model://blue_ground</uri>
+      <pose>5.5 -3.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>tc1</name>
+      <uri>model://table_and_chair</uri>
+      <pose>1 -5.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <name>tc1</name>
+      <uri>model://C_male</uri>
+      <pose>0.36 -2.865 0 0 0 3.12</pose>
+    </include>
+
+<!--wall images-->
+    <include>
+      <name>w1</name>
+      <uri>model://white_wall_img</uri>
+      <pose>1.4 0 1.4 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>w2</name>
+      <uri>model://white_wall_img</uri>
+      <pose>7.4 0 1.4 0 0 1.5708</pose>
+    </include>
+
+
+<!--walls-->
+    <link name="ww1">
+      <pose>5.125 0.025 1.25 0 0 0</pose>
+      <collision name="wc1">
+        <geometry>
+          <box>
+            <size>10.25 0.05 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wv1">
+        <geometry>
+          <box>
+            <size>10.25 0.05 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/CeilingTiled</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ww2">
+      <pose>10.25 -3.625 1.25 0 0 1.5708</pose>
+      <collision name="wc2">
+        <geometry>
+          <box>
+            <size>7.25 0.05 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wv2">
+        <geometry>
+          <box>
+            <size>7.25 0.05 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/CeilingTiled</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ww3">
+      <pose>0 -4.625 1.25 0 0 1.5708</pose>
+      <collision name="wc3">
+        <geometry>
+          <box>
+            <size>5.25 0.05 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wv3">
+        <geometry>
+          <box>
+            <size>5.25 0.05 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/CeilingTiled</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ww4">
+      <pose>5.125 -7.25 1.25 0 0 0</pose>
+      <collision name="wc4">
+        <geometry>
+          <box>
+            <size>10.25 0.05 2.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="wv4">
+        <geometry>
+          <box>
+            <size>10.25 0.05 2.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/CeilingTiled</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+
+
+<!--box images-->
+    <include>
+      <name>r1</name>
+      <uri>model://radiation</uri>
+      <pose>2.25 -0.25 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>p1</name>
+      <uri>model://poster</uri>
+      <pose>2.25 -0.25 1.75 0 0 0</pose>
+    </include>
+    <include>
+      <name>bbi1</name>
+      <uri>model://blue_box_img_small</uri>
+      <pose>2.25 -0.75 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>d1</name>
+      <uri>model://digital_img</uri>
+      <pose>2.25 -1.5 1.05 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>r2</name>
+      <uri>model://radiation</uri>
+      <pose>1.5 -3.25 1.05 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>e1</name>
+      <uri>model://escape_exit</uri>
+      <pose>1.0 -3.25 1.05 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>d2</name>
+      <uri>model://digital_img</uri>
+      <pose>2.25 -3.25 1.05 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>r3</name>
+      <uri>model://radiation</uri>
+      <pose>4.25 -3.25 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>bbi2</name>
+      <uri>model://blue_box_img_small</uri>
+      <pose>4.25 -3.25 1.75 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>d3</name>
+      <uri>model://digital_img</uri>
+      <pose>4.0 -0.25 1.05 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>r4</name>
+      <uri>model://radiation</uri>
+      <pose>6.0 -2.25 1.75 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>r5</name>
+      <uri>model://radiation</uri>
+      <pose>5.75 -3.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>bbi3</name>
+      <uri>model://blue_box_img_small</uri>
+      <pose>5.75 -2.5 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>p2</name>
+      <uri>model://poster</uri>
+      <pose>6.5 -2.25 1.05 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>d4</name>
+      <uri>model://digital_img</uri>
+      <pose>8.0 -2.0 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>bbi4</name>
+      <uri>model://blue_box_img_small</uri>
+      <pose>8 -2.75 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>e2</name>
+      <uri>model://escape_exit</uri>
+      <pose>8.25 -1.5 1.75 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>p3</name>
+      <uri>model://poster</uri>
+      <pose>9.75 -1.75 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>p4</name>
+      <uri>model://poster</uri>
+      <pose>0.4375 -6.75 1.75 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>p5</name>
+      <uri>model://poster</uri>
+      <pose>4.0 -3.5 1.75 0 0 0</pose>
+    </include>
+    <include>
+      <name>p6</name>
+      <uri>model://poster</uri>
+      <pose>4.0 -4.5 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>e4</name>
+      <uri>model://escape_exit</uri>
+      <pose>4.0 -5.0 1.75 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>r6</name>
+      <uri>model://radiation</uri>
+      <pose>4.0 -4.0 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>r7</name>
+      <uri>model://radiation</uri>
+      <pose>6.75 -6.0 1.05 0 0 0</pose>
+    </include>
+    <include>
+      <name>r8</name>
+      <uri>model://radiation</uri>
+      <pose>9.25 -5.0 1.75 0 0 0</pose>
+    </include>
+    <include>
+      <name>e3</name>
+      <uri>model://escape_exit</uri>
+      <pose>6.75 -6.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>bbi5</name>
+      <uri>model://blue_box_img_small</uri>
+      <pose>9.25 -5.0 1.05 0 0 0</pose>
+    </include>
+
+
+<!--left down block-->
+    <include>
+      <name>b1</name>
+      <uri>model://basic_box</uri>
+      <pose>2.5 -0.25 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b2</name>
+      <uri>model://basic_box</uri>
+      <pose>2.5 -0.75 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b3</name>
+      <uri>model://basic_box</uri>
+      <pose>2.5 -1.25 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b4</name>
+      <uri>model://basic_box</uri>
+      <pose>2.5 -1.75 0.35 0 0 0</pose>
+    </include>
+
+
+<!--right down block-->
+    <include>
+      <name>b5</name>
+      <uri>model://box_big</uri>
+      <pose>0.375 -3.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b6</name>
+      <uri>model://basic_box</uri>
+      <pose>1.0 -3.5 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>b7</name>
+      <uri>model://basic_box</uri>
+      <pose>1.5 -3.5 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>b8</name>
+      <uri>model://basic_box</uri>
+      <pose>2.0 -3.5 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>b9</name>
+      <uri>model://basic_box</uri>
+      <pose>2.5 -3.5 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>b10</name>
+      <uri>model://box_big</uri>
+      <pose>0.375 -7.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b11</name>
+      <uri>model://box_big</uri>
+      <pose>0.25 -5.25 0.35 0 0 1.5708</pose>
+    </include>
+
+
+<!--right middle block-->
+    <include>
+      <name>b12</name>
+      <uri>model://box_big</uri>
+      <pose>3.625 -7.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b13</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -3.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b14</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -4.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b15</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -4.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b16</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -5.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b17</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -5.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b18</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -6.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b19</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -6.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b20</name>
+      <uri>model://basic_box</uri>
+      <pose>4.25 -7.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b21</name>
+      <uri>model://box_big</uri>
+      <pose>4.875 -7.0 0.35 0 0 0</pose>
+    </include>
+
+
+<!--left upper islands-->
+    <include>
+      <name>b22</name>
+      <uri>model://box_big</uri>
+      <pose>4.25 -0.375 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>b23</name>
+      <uri>model://box_big</uri>
+      <pose>4.75 -0.375 0.35 0 0 1.5708</pose>
+    </include>
+    <include>
+      <name>b24</name>
+      <uri>model://box_big</uri>
+      <pose>5.25 -0.375 0.35 0 0 1.5708</pose>
+    </include>
+
+    <include>
+      <name>b25</name>
+      <uri>model://basic_box</uri>
+      <pose>6.0 -3.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b26</name>
+      <uri>model://basic_box</uri>
+      <pose>6.0 -2.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b27</name>
+      <uri>model://basic_box</uri>
+      <pose>6.5 -3.0 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b28</name>
+      <uri>model://basic_box</uri>
+      <pose>6.5 -2.5 0.35 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>b29</name>
+      <uri>model://basic_box</uri>
+      <pose>8.25 -2.75 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b30</name>
+      <uri>model://basic_box</uri>
+      <pose>8.25 -2.25 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b31</name>
+      <uri>model://basic_box</uri>
+      <pose>8.25 -1.75 0.35 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>b32</name>
+      <uri>model://basic_box</uri>
+      <pose>10 -2.75 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b33</name>
+      <uri>model://basic_box</uri>
+      <pose>10 -2.25 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b34</name>
+      <uri>model://basic_box</uri>
+      <pose>10 -1.75 0.35 0 0 0</pose>
+    </include>
+
+
+<!--right uppero islands-->
+    <include>
+      <name>b35</name>
+      <uri>model://basic_box</uri>
+      <pose>7 -6 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b36</name>
+      <uri>model://basic_box</uri>
+      <pose>7 -6.5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b37</name>
+      <uri>model://basic_box</uri>
+      <pose>7 -7.0 0.35 0 0 0</pose>
+    </include>
+
+    <include>
+      <name>b38</name>
+      <uri>model://basic_box</uri>
+      <pose>10 -5 0.35 0 0 0</pose>
+    </include>
+    <include>
+      <name>b39</name>
+      <uri>model://basic_box</uri>
+      <pose>9.5 -5 0.35 0 0 0</pose>
+    </include>
+
+
+  </model>
+</sdf>

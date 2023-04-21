@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="blue_ground">
+    <static>true</static>
+    <link name="ground">
+      <collision name="groundc">
+        <geometry>
+          <box>
+            <size>12 8 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv">
+        <geometry>
+          <box>
+            <size>12 8 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://blue_ground/materials/scripts</uri>
+            <uri>model://blue_ground/materials/textures</uri>
+            <name>vrc/blue_ground</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+
+  </model>
+</sdf>

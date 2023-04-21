@@ -1,0 +1,16 @@
+material vrc/blue_box_img_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture blue_box_img.png
+				filtering anistropic
+				max_anisotropy 16
+				scale 1 1
+			}
+		}
+	}
+}

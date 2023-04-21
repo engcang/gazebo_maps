@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="radiation">
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 0.5 0.7</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.01 0.5 0.7</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://radiation/materials/scripts</uri>
+            <uri>model://radiation/materials/textures</uri>
+            <name>vrc/radiation</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

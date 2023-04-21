@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="digital_img">
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 1.0 2.1</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.01 1.0 2.1</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://digital_img/materials/scripts</uri>
+            <uri>model://digital_img/materials/textures</uri>
+            <name>vrc/digital_img</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

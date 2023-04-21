@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Acourse">
+
+    <include>
+      <name>wall</name>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://Acourse_wall</uri>
+    </include>
+    <include>
+      <name>box1</name>
+      <pose>-1.9 9 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box2</name>
+      <pose>-1.9 14 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box3</name>
+      <pose>1.9 9 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box4</name>
+      <pose>1.9 14 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>start</name>
+      <pose>0 0 0.01 0 0 1.5708</pose>
+      <uri>model://starting_point</uri>
+    </include>
+    <include>
+      <name>home</name>
+      <pose>0 24 0.01 0 0 1.5708</pose>
+      <uri>model://homing_point</uri>
+    </include>
+
+
+
+    <include>
+      <name>whitewall1</name>
+      <pose>-2.17 2.5 1 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall2</name>
+      <pose>-2.17 6.5 1 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall3</name>
+      <pose>2.17 2.5 1 0 0 3.14</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall4</name>
+      <pose>2.17 6.5 1 0 0 3.14</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+
+    <include>
+      <name>whitewall5</name>
+      <pose>-2.17 11.5 1 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall6</name>
+      <pose>2.17 11.5 1 0 0 3.14</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+
+
+    <include>
+      <name>whitewall7</name>
+      <pose>-2.17 17 1 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall8</name>
+      <pose>-2.17 20.5 1 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall9</name>
+      <pose>2.17 17 1 0 0 3.14</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>whitewall10</name>
+      <pose>2.17 20.5 1 0 0 3.14</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+
+
+    <include>
+      <name>shepherd</name>
+      <pose>1.85 8 0 0 0 3.14</pose>
+      <uri>model://shepherd</uri>
+    </include>
+    <include>
+      <name>A_male</name>
+      <pose>-1.7 8 0 0 0 -1.5708</pose>
+      <uri>model://A_male</uri>
+    </include>
+    <include>
+      <name>A_male2</name>
+      <pose>1.85 15 0 0 0 3.14</pose>
+      <uri>model://A_male</uri>
+    </include>
+
+    <include>
+      <name>floor</name>
+      <pose>0 15 0 0 0 0</pose>
+      <uri>model://Acourse_floor</uri>
+    </include>
+
+  </model>
+</sdf>

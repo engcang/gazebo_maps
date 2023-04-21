@@ -1,0 +1,16 @@
+material vrc/white_wall_img
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture white_wall_img.png
+				filtering anistropic
+				max_anisotropy 16
+				scale 1 1
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="poster">
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 0.3 0.5</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.01 0.3 0.5</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://poster/materials/scripts</uri>
+            <uri>model://poster/materials/textures</uri>
+            <name>vrc/poster</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

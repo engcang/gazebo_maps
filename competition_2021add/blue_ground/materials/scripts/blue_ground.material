@@ -1,0 +1,16 @@
+material vrc/blue_ground
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture blue_ground.jpg
+				filtering anistropic
+				max_anisotropy 16
+				scale 0.1 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='gown'>
+    <static>true</static>
+      <link name='gown'>
+         <collision name='gownc'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://gown/gown6.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='gownv'>
+        <cast_shadows>false</cast_shadows>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://gown/gown6.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+  </model>
+</sdf>

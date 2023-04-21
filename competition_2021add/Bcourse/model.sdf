@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Bcourse">
+
+<!--wall and wall imgs-->
+
+    <include>
+      <name>wall</name>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://Bcourse_wall</uri>
+    </include>
+
+    <include>
+      <name>wi1</name>
+      <pose>-1.425 0 1.05 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+    <include>
+      <name>wi2</name>
+      <pose>1.4 1.75 1.05 0 0 0</pose>
+      <uri>model://white_wall_img</uri>
+    </include>
+
+    <include>
+      <name>bbi1</name>
+      <pose>-5.42 3.7 1.05 0 0 0</pose>
+      <uri>model://blue_box_img</uri>
+    </include>
+
+<!--floors-->
+    <include>
+      <name>start</name>
+      <pose>0 -1.5 0.05 0 0 1.5708</pose>
+      <uri>model://starting_point</uri>
+    </include>
+    <include>
+      <name>home</name>
+      <pose>-8 9.5 0.05 0 0 0</pose>
+      <uri>model://homing_point</uri>
+    </include>
+
+    <link name="ground">
+      <pose>-4 5 0 0 0</pose>
+      <collision name="groundc">
+        <geometry>
+          <box>
+            <size>12 15 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv">
+        <geometry>
+          <box>
+            <size>12 15 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://blue_ground/materials/scripts</uri>
+            <uri>model://blue_ground/materials/textures</uri>
+            <name>vrc/blue_ground</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+<!--boxes-->
+    <include>
+      <name>box1</name>
+      <pose>1.15 -0.3 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box2</name>
+      <pose>0.45 -0.3 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box3</name>
+      <pose>-1.15 1.8 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box4</name>
+      <pose>-0.45 1.8 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box5</name>
+      <pose>1.15 4.7 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box6</name>
+      <pose>0.45 4.7 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box7</name>
+      <pose>-0.25 4.7 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box8</name>
+      <pose>-2.1 4.7 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box9</name>
+      <pose>-2 2.4 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box10</name>
+      <pose>-2.9 5.4 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+    <include>
+      <name>box11</name>
+      <pose>-5.1 5.4 0.35 0 0 0</pose>
+      <uri>model://box_big</uri>
+    </include>
+
+
+<!--cylinders-->
+    <include>
+      <name>Bcylinder1</name>
+      <pose>-2.9 7.5 1.25 0 0 0</pose>
+      <uri>model://Bcylinder</uri>
+    </include>
+    <include>
+      <name>Bcylinder2</name>
+      <pose>-3.6 7.5 1.25 0 0 0</pose>
+      <uri>model://Bcylinder</uri>
+    </include>
+
+  </model>
+</sdf>

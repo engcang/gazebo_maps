@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+<model name='homing_point'>
+<static>true</static>
+<link name="link">
+  <pose frame=''>0 0 0 0 0 0</pose>
+  <collision name="collision">
+    <geometry>
+      <box>
+        <size>1 1 0.05</size>
+      </box>
+    </geometry>
+  </collision>
+
+  <visual name="visual">
+<!--    <cast_shadows>false</cast_shadows>-->
+    <geometry>
+      <box>
+        <size>1 1 .05</size>
+      </box>
+    </geometry>
+    <material>
+      <script>
+        <uri>model://homing_point/materials/scripts</uri>
+        <uri>model://homing_point/materials/textures</uri>
+        <name>vrc/homing_point</name>
+      </script>
+    </material>
+  </visual>
+
+</link>
+</model>
+</sdf>

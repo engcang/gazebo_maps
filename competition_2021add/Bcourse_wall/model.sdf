@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="Bcourse_wall">
+
+    <include>
+      <name>w1</name>
+      <pose>-1.5 0 0 0 0 1.5708</pose>
+      <uri>model://4m_wall</uri>
+    </include>
+    <include>
+      <name>w2</name>
+      <pose>1.5 0 0 0 0 1.5708</pose>
+      <uri>model://4m_wall</uri>
+    </include>
+    <include>
+      <name>w3</name>
+      <pose>-3.5 2 0 0 0 0</pose>
+      <uri>model://4m_wall</uri>
+    </include>
+    <include>
+      <name>w4</name>
+      <pose>1.5 3.5 0 0 0 1.5708</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w5</name>
+      <pose>-5.5 3.5 0 0 0 1.5708</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w6</name>
+      <pose>-5.5 6.5 0 0 0 1.5708</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w7</name>
+      <pose>-2.5 6.5 0 0 0 1.5708</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w8</name>
+      <pose>-2.5 9.5 0 0 0 1.5708</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w9</name>
+      <pose>-7 11 0 0 0 0</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w10</name>
+      <pose>-4 11 0 0 0 0</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w11</name>
+      <pose>-7 8 0 0 0 0</pose>
+      <uri>model://3m_wall</uri>
+    </include>
+    <include>
+      <name>w12</name>
+      <pose>-0.5 5 0 0 0 0</pose>
+      <uri>model://4m_wall</uri>
+    </include>
+  </model>
+</sdf>

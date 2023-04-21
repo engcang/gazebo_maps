@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='specialforce'>
+    <static>true</static>
+      <link name='specialforce'>
+         <collision name='specialforcec'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://specialforce/special.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='specialforcec'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://specialforce/special.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>specialforce</name>
+              <uri>model://specialforce/special.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

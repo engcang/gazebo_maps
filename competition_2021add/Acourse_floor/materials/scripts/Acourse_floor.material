@@ -1,0 +1,15 @@
+material vrc/Acourse_floor
+{
+  #receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture floor.jpg
+        scale 0.1 0.05
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='A_male'>
+    <static>true</static>
+      <link name='A_male'>
+         <collision name='A_malec'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://A_male/male4.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='A_malev'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://A_male/male4.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>A_male</name>
+              <uri>model://A_male/male4.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

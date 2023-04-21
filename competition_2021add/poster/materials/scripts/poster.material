@@ -1,0 +1,16 @@
+material vrc/poster
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture poster.png
+				filtering anistropic
+				max_anisotropy 16
+				scale 1 1
+			}
+		}
+	}
+}

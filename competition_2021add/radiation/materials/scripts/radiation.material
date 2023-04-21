@@ -1,0 +1,16 @@
+material vrc/radiation
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture radiation.png
+				filtering anistropic
+				max_anisotropy 16
+				scale 1 1
+			}
+		}
+	}
+}

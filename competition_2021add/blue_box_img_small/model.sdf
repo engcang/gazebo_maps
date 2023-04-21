@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="blue_box_img_small">
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>0.01 0.5 0.7</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.01 0.5 0.7</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://blue_box_img_small/materials/scripts</uri>
+            <uri>model://blue_box_img_small/materials/textures</uri>
+            <name>vrc/blue_box_img_small</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

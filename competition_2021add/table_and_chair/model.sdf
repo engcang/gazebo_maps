@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='table_and_chair'>
+    <static>true</static>
+      <link name='table_and_chair'>
+         <collision name='table_and_chair'>
+          <geometry>
+            <mesh>
+              <scale>0.6 0.6 0.6</scale>
+              <uri>model://table_and_chair/model.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='table_and_chair'>
+          <geometry>
+            <mesh>
+              <scale>0.6 0.6 0.6</scale>
+              <uri>model://table_and_chair/model.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>table_and_chair</name>
+              <uri>model://table_and_chair/model.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>

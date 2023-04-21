@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version='1.5'>
+  <model name='rokarmy'>
+    <static>true</static>
+      <link name='rokarmy'>
+         <collision name='rokarmyc'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://rokarmy/rok.dae</uri>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name='rokarmyc'>
+          <geometry>
+            <mesh>
+              <scale>0.08 0.08 0.08</scale>
+              <uri>model://rokarmy/rok.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>rokarmy</name>
+              <uri>model://rokarmy/rok.dae</uri>
+            </script>
+          </material>
+        </visual>
+      </link>
+  </model>
+</sdf>
