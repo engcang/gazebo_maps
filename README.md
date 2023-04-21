@@ -36,12 +36,40 @@ Self-made Gazebo maps and models for public
       + [Video1](https://youtu.be/5t-6g7UWA7o) and [Video2](https://youtu.be/0L2FCupYuH8)
 + Quadruped robot [competition map](https://github.com/engcang/gazebo_map_for_khnp)
   + [video](https://youtu.be/6oXx2bvzU9Y), [competition github](https://github.com/Woojin-Seol/KVRC2021)
++ Drone competition map
+  + ADD2021 K-DARPA
+  + KVRC2022 - [map](https://github.com/engcang/gazebo_map_for_khnp), [video](https://youtu.be/usKW3UG9wpc), [competition github](https://github.com/Woojin-Seol/KVRC2022)
 
 <br>
 
 ## Map pictures
 
-<details><summary>[Click to see pictures]</summary>
+<details open><summary>[Click to fold/unfold pictures]</summary>
+
++ Quadruped robot competition map
+
+  <p align="center">
+  <img src="images/kvrc1-1.png" width="200"/>
+  <img src="images/kvrc1-2.png" width="220"/>
+  <img src="images/kvrc1-3.png" width="460"/>
+  </p>
+  
++ Drone competition map - ADD2021 K-DARPA
+
+  <p align="center">
+  <img src="images/competition_2021add_A.png" width="180"/>
+  <img src="images/competition_2021add_B.png" width="250"/>
+  <img src="images/competition_2021add_B2.png" width="260"/>
+  <img src="images/competition_2021add_C.png" width="220"/>
+  </p>
+  
++ Drone competition map - KVRC2022
+
+  <p align="center">
+  <img src="images/kvrc2-1.png" width="230"/>
+  <img src="images/kvrc2-2.png" width="420"/>
+  </p>
+  
 
 + Small-scale maze
 
@@ -135,7 +163,7 @@ Self-made Gazebo maps and models for public
 
 ## Model Pictures
 
-<details><summary>[Click to see pictures]</summary>
+<details open><summary>[Click to fold/unfold pictures]</summary>
 
 + Models in `recon1.tar.xz` file (`Big-Ben`, `Louisiana State House`, `Eiffel Tower`, `Japanese temple`, `Bridge`)
 
