@@ -1,3 +1,5 @@
+.vscode/
+
 common_models/
 3d_maze/
 bounding_wall_world/
