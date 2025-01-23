@@ -18,10 +18,12 @@ Self-made Gazebo maps and models for public
   + [Peacock exploration: a lightweight exploration for UAV using control-efficient trajectory](https://link.springer.com/chapter/10.1007/978-981-16-4803-8_16), *2020 RiTA*
     + Maze with 3D obstacles
       + [Video](https://youtu.be/t3ysB8Y_GCU)
-  + (Pending) LiDAR-camera Exploration and Inspection Path Planning, *2023 RA-L*
+  + (Pending) Topological Exploration
     + Vertical tunnel
       + [Video](https://youtu.be/emiSJMcA8yM?t=531), [Video2](https://youtu.be/2nyaDcgCnaw)
     + Large-scale and complex environment
+    + Indoor building
+    + Indoor and outdoor building
 + Map used in the paper:
   + [ROLAND: Robust Landing of UAV on Moving Platform using Object Detection and UWB based Extended Kalman Filter](https://ieeexplore.ieee.org/abstract/document/9649920), *2021 ICCAS*
     + Wall bounded world (with obstacles)
@@ -150,13 +152,12 @@ Self-made Gazebo maps and models for public
     + [`Japanese temple2`](https://skfb.ly/6RyU9)
   + THE-Planner: Topological and Hierarchical Exploration Path Planner for Fast and Coarse 3D Mapping of Outdoor Structures with UAVs, *2023 UR*
     + [`San Adrian thermal powerplant`](https://skfb.ly/otxH6), [`Orthodox church`](https://skfb.ly/o7uZD)
-  + [EQA-CPP: Energy and Quality-Aware Coverage Path Planner for 3D reconstruction with UAVs](https://github.com/engcang/EQA-CPP), *2023 RA-L (pending)*
+
++ Models not used in any paper:
     + [`Alexander Nevsky Cathedral`](https://skfb.ly/otCOL), [`At Tin Mosque`](https://skfb.ly/6TGTC)
     + [`Louisiana State House`](https://skfb.ly/oxwWF), [`Khram Pokrova`](https://skfb.ly/o7nBM)
     + [`Tomb of Tu Duc`](https://skfb.ly/6SRAz), [`Stone church`](https://skfb.ly/6RFIs)
     + [`Mexico City Cathedral`](https://skfb.ly/6RvxJ)
-
-+ Models not used in any paper:
     + [`Louisiana State House`](https://skfb.ly/oxwWF), [`Bridge`](https://skfb.ly/6WZuC)
 
 <br>
