@@ -69,7 +69,7 @@
 
     <include>
       <static>true</static>
-      <pose>0 0 0 0 0 0</pose>
+      <pose>-3 -3 0 0 0 0</pose>
       <uri>model://indoor_bldg</uri>
     </include>
 
